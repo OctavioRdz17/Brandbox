@@ -1,0 +1,37 @@
+@media (max-width:678px){
+    .products{
+        display: inherit;
+        
+        height: auto;
+        background-position: center ;
+        background-size: cover;
+        padding: 4% 20%;
+    }
+    .product{
+        margin: auto;
+        text-align: center;
+
+    }
+    .content{
+        width: 100%;
+    }
+    .main-section{
+        padding: 4%;
+    }
+    .descriptions, .menciones{
+        width: auto;
+        display: inherit;
+        padding: 4% 20%;
+    }
+    .description-tarjet, .mention-tarjet{
+        width: 100%;
+        padding: 10px 0;
+        margin:0;
+    }
+    .menciones{
+    padding: 4% 10%;
+    }
+    .img-wrapper img{
+        width: 100%;
+    }
+}

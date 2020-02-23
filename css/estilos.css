@@ -1,0 +1,154 @@
+/* -----------------variables */
+:root{
+--greenColor:#7ACC2D;
+--greenHoverColor:#588231;
+--whiteColor:white;
+--blackColor:#313337;
+--space:10px;
+/* Tipografia */
+--normal:14px;
+/* Box Shadow */
+--boxShadow: 0px 3px 6px #00000029;;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* -----------------variables */
+body,html{
+    margin: 0;
+    padding: 0;
+    font-size: var(--normal);
+    font-family: 'Open Sans', Helvetica, sans-serif ;
+    
+}
+nav{
+    background: var(--greenColor);
+    padding: 10px; 
+    display: flex;
+    justify-content: 
+    space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+li{
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a{
+    color: var(--blackColor);
+    text-decoration: none;
+}
+nav li a:hover{
+    color: var(--whiteColor);
+}
+
+/* ----------------------Main seccion */
+
+.main-section{
+    /* text-align: center; */
+    padding: 15%;
+}
+.products{
+background-image: url(../images/curve.png);
+background-position-y: 100px;
+background-repeat: no-repeat;
+height: 10px;
+background-size: contain;
+padding: 17%;
+display: flex;
+justify-content: center;
+}
+.product{
+    margin-top: -240px;
+    padding: var(--space);
+}
+
+.content{
+    padding: 15px;
+    background: var(--whiteColor);
+    box-shadow: var(--boxShadow);
+    width: 280px;
+}
+
+.image-wrapper{
+    text-align: center;
+
+}
+.main-button{
+    color: var(--whiteColor);
+    background: var(--greenColor);
+    border: none;
+    padding: var(--space);
+    font-size: var(--normal);
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main-button:hover{
+    
+    background: var(--greenHoverColor);
+    
+}
+
+/* ----------------------Main seccion fainal */
+
+.descriptions{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.description-tarjet{
+    padding: var(--space);
+    text-align: center;
+    align-items: baseline;
+    width: 30%;
+    border: none;
+    margin: var(--space);
+}
+.image-wrapper img{
+    max-width: 80%;
+    height: 140px;
+    max-height: 80%;
+}
+.description-tarjet p{
+    text-align: left;
+    font-size: var(--normal);
+    padding: var(--space);
+}
+.main-menciones{
+    text-align: center;
+}
+.menciones{
+    justify-content: center;
+    display: flex;
+    padding: 60px;
+}
+.mention-tarjet{
+    width: 20%;
+    text-align: left;
+    box-shadow: var(--boxShadow);
+    margin: var(--space);
+}
+.mention-tarjet h2{
+    
+    width: 20%;
+    text-align: left;
+    margin: .3em;
+}
+.img-wrapper img{
+    max-width: 100%;
+}
+.mention-tarjet p{
+    padding: 5px 10px;
+    margin: 0;
+}
+.footer{
+    height: 50px;
+    background-color:#313337  ;
+    display: flex;
+    justify-content: space-between;
+    color: var(--whiteColor);
+    align-items: center;
+    padding: 0 10px;
+}
