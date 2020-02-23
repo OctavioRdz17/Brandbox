@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <title>BRAND 📦Venta</title>
+</head>
+
+<body>
+    <!-- Aqui empieza el nav bar -->
+    <nav class="fadeInDown">
+        <div class="brand-image">
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <div class="nav-options">
+            <ul>
+                <li><a href="#">FAQS</a></li>
+                <li><a href="#">Products & Description</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- Aqui termina el nav bar -->
+
+    <!-- --------------------formulario de venta -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo-pago">
+                    <div class="modulo-pago-img">
+                        <img src="images/box2.png" alt="">
+                    </div>
+                    <h3>Producto 1</h3>
+                    <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo-pago">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZSLMV3HNMHTKG"
+                        method="POST">
+                        <label for="name">Nombre</label><br>
+                        <input type="text" placeholder="" name="name" id="name" class="data"><br>
+
+                        <label for="email">Email</label><br>
+                        <input type="email" placeholder="" name="email" id="email" class="data"><br>
+
+                        <label for="phone">Teléfono</label><br>
+                        <input type="tel" placeholder="" name="phone" id="phone" class="data">
+                        <input type="submit" value="Confirmar pago" name="submit" class="main-button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------formulario de Beneficios -->
+
+
+
+
+    <!-- Aqui empieza el footer -->
+    <footer class="footer fadeInUp">
+        <p>Términos y condiciones</p>
+        <p>contacto@mail.com</p>
+    </footer>
+    <!-- Aqui termina el footer -->
+
+</body>
+
+</html>
